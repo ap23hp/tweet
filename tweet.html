@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet</title>
+    <style>
+        .tweet{
+            font-size:2rem;
+            
+            }
+            .counter{
+                font-size: 2rem;
+            }
+    </style>
+
+</head>
+<body>
+    <textarea 
+    placeholder="what's happening?"
+    class="tweet"
+    name="tweet" 
+    cols="30"
+    rows="10"
+    maxlength="20"
+    oninput="count(event)"
+    >
+    </textarea>
+    <span class="counter">0/20</span>
+
+    <script src="tweet.js"></script>
+</body>
+</html>
